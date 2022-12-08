@@ -25,7 +25,7 @@ public class ForestKingTrigger : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
 
-            battleSystem.enemiesInBattle.Add(forrestKing);
+            //battleSystem.enemiesInBattle.Add(forrestKing);
             FindObjectOfType<GameManager>().StartBattle();
             playerInRange = false;
             //Debug.Log("box exited");

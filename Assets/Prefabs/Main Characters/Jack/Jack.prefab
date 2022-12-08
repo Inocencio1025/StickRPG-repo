@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 475906642520849362}
   - component: {fileID: 3679188998818178100}
-  - component: {fileID: 5547332838401450476}
+  - component: {fileID: 715681514168735897}
   - component: {fileID: -2212563013963325810}
   - component: {fileID: 3545095491397703201}
   - component: {fileID: 4884031241271724424}
@@ -93,7 +93,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &5547332838401450476
+--- !u!114 &715681514168735897
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -102,21 +102,23 @@ MonoBehaviour:
   m_GameObject: {fileID: 113070895834720736}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 66db27f5f46d9494c823b337c11cd674, type: 3}
+  m_Script: {fileID: 11500000, guid: a17e2dec7c4c79a498eb1f02d7ff29e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   unitName: Jack
   unitLevel: 1
-  damage: 6
-  speed: 5
-  speedMultiplier: 0
+  maxHP: 10
+  currentHP: 10
+  damage: 10
+  specialDamage: 10
+  speed: 10
   ticks: 0
+  speedMultiplier: 1
   turnsActive: 0
   specAttRate: 0
-  maxHP: 20
-  currentHP: 20
+  counterRate: 0
+  counterState: 0
   poisonNum: 0
-  TurnImage: {fileID: 4884031241271724424}
   animator: {fileID: -2212563013963325810}
   effects: {fileID: 0}
 --- !u!95 &-2212563013963325810

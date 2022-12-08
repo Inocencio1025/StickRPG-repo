@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7047551953006427538}
   - component: {fileID: 3661684844789720873}
-  - component: {fileID: 8843120991561174309}
+  - component: {fileID: 8215638649476219977}
   - component: {fileID: 1726014183830970782}
   - component: {fileID: 6154194034389334420}
   - component: {fileID: 4332652271814976562}
@@ -93,7 +93,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &8843120991561174309
+--- !u!114 &8215638649476219977
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -102,22 +102,23 @@ MonoBehaviour:
   m_GameObject: {fileID: 3649945306371562279}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 66db27f5f46d9494c823b337c11cd674, type: 3}
+  m_Script: {fileID: 11500000, guid: d32908b47fbdfef46b73695d8975e6dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   unitName: River
   unitLevel: 1
-  damage: 4
-  specialDamage: 0
-  speed: 9
-  speedMultiplier: 0
+  maxHP: 12
+  currentHP: 12
+  damage: 7
+  specialDamage: 12
+  speed: 13
   ticks: 0
+  speedMultiplier: 1
   turnsActive: 0
   specAttRate: 0
-  maxHP: 10
-  currentHP: 10
+  counterRate: 0
+  counterState: 0
   poisonNum: 0
-  TurnImage: {fileID: 4332652271814976562}
   animator: {fileID: 1726014183830970782}
   effects: {fileID: 0}
 --- !u!95 &1726014183830970782

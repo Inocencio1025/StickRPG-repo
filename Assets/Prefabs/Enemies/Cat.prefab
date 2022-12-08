@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3082496387525760597}
-  - component: {fileID: 340340172370611115}
+  - component: {fileID: 2428288468874431850}
   - component: {fileID: 5347502011004411549}
   - component: {fileID: 772524022318997515}
   - component: {fileID: 6521254506957071206}
@@ -42,7 +42,7 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0.15}
   m_SizeDelta: {x: 1, y: 1}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &340340172370611115
+--- !u!114 &2428288468874431850
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -51,26 +51,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 3047488387909604333}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 66db27f5f46d9494c823b337c11cd674, type: 3}
+  m_Script: {fileID: 11500000, guid: 6e42a0094415525499eb4df98d847868, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  unitName: Cat
-  unitLevel: 0
-  damage: 2
-  specialDamage: 0
-  speed: 11
-  speedMultiplier: 1
-  ticks: 0
-  turnsActive: 0
-  specAttRate: 50
-  counterRate: 0
-  counterState: 0
-  maxHP: 100
-  currentHP: 100
-  poisonNum: 0
-  TurnImage: {fileID: 6490336150771493950}
-  animator: {fileID: 5347502011004411549}
-  effects: {fileID: 0}
 --- !u!95 &5347502011004411549
 Animator:
   serializedVersion: 4

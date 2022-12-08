@@ -9,8 +9,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8788782496020608931}
-  - component: {fileID: 8788782496020608928}
   - component: {fileID: 8677839648269314169}
+  - component: {fileID: 8788782496020608928}
   - component: {fileID: 8788782496020608929}
   - component: {fileID: 8788782496020608934}
   - component: {fileID: 1579181716722906024}
@@ -36,6 +36,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8677839648269314169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8788782496020608935}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eefc22a5b1b00434c9446864a4605628, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &8788782496020608928
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -88,22 +100,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &8677839648269314169
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8788782496020608935}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eefc22a5b1b00434c9446864a4605628, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameManager: {fileID: 0}
-  dialog:
-    name: 
-    sentences: []
 --- !u!61 &8788782496020608929
 BoxCollider2D:
   m_ObjectHideFlags: 0

@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5268755708498232393}
   - component: {fileID: 4862836355580524852}
-  - component: {fileID: 6630298964174802084}
+  - component: {fileID: 3458741001242419089}
   - component: {fileID: 426515338749853576}
   - component: {fileID: 4845647142200728070}
   - component: {fileID: 3741821727030767153}
@@ -95,7 +95,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &6630298964174802084
+--- !u!114 &3458741001242419089
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -104,23 +104,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 6848915774358086076}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 66db27f5f46d9494c823b337c11cd674, type: 3}
+  m_Script: {fileID: 11500000, guid: d421ca70c3b42b942b56e54ad1381c6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   unitName: Kami
   unitLevel: 1
-  damage: 4
-  speed: 6
-  speedMultiplier: 0
+  maxHP: 10
+  currentHP: 10
+  damage: 8
+  specialDamage: 10
+  speed: 11
   ticks: 0
+  speedMultiplier: 1
   turnsActive: 0
   specAttRate: 0
-  maxHP: 20
-  currentHP: 20
+  counterRate: 0
+  counterState: 0
   poisonNum: 0
-  TurnImage: {fileID: 3741821727030767153}
   animator: {fileID: 426515338749853576}
-  effects: {fileID: 4905765562759236076}
+  effects: {fileID: 0}
 --- !u!95 &426515338749853576
 Animator:
   serializedVersion: 4

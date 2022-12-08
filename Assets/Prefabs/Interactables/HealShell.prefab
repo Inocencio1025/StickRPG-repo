@@ -138,11 +138,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3812405420349429254}
+  - component: {fileID: 3812405420349429309}
   - component: {fileID: 3812405420349429305}
   - component: {fileID: 3812405420349429304}
   - component: {fileID: 3812405420349429307}
   - component: {fileID: 3812405420349429306}
-  - component: {fileID: 3812405420349429309}
   - component: {fileID: 3812405420349429255}
   m_Layer: 0
   m_Name: HealShell
@@ -172,6 +172,21 @@ RectTransform:
   m_AnchoredPosition: {x: 160.37492, y: -162.21327}
   m_SizeDelta: {x: 0.05, y: 0.02}
   m_Pivot: {x: 0.5, y: 1.83}
+--- !u!114 &3812405420349429309
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3812405420349429308}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d02715ffa371d6442a69fbbce99af060, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isCollectable: 1
+  inventory: {fileID: 0}
+  amt: 0
 --- !u!212 &3812405420349429305
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -288,21 +303,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.4957876, y: 0.31275386}
   m_EdgeRadius: 0
---- !u!114 &3812405420349429309
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3812405420349429308}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d02715ffa371d6442a69fbbce99af060, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  text: {fileID: 0}
-  dialogBox: {fileID: 0}
-  dialog: Collected 2 HealShells
 --- !u!114 &3812405420349429255
 MonoBehaviour:
   m_ObjectHideFlags: 0

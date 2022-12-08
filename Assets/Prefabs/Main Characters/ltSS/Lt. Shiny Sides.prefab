@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6216189189366762514}
   - component: {fileID: 6853845564685864128}
-  - component: {fileID: 6339920080106844105}
+  - component: {fileID: -9202682050287570316}
   - component: {fileID: 8391947440105178824}
   - component: {fileID: 559401132262735640}
   - component: {fileID: 6625094748001493794}
@@ -93,7 +93,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &6339920080106844105
+--- !u!114 &-9202682050287570316
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -102,22 +102,23 @@ MonoBehaviour:
   m_GameObject: {fileID: 8455332772138311140}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 66db27f5f46d9494c823b337c11cd674, type: 3}
+  m_Script: {fileID: 11500000, guid: b3fcbd6d13058b14fbba84e7637b69e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  unitName: Lt ShinySides
+  unitName: Lt. Shiny Sides
   unitLevel: 1
-  damage: 9
-  specialDamage: 0
-  speed: 4
-  speedMultiplier: 0
+  maxHP: 10
+  currentHP: 10
+  damage: 15
+  specialDamage: 5
+  speed: 6
   ticks: 0
+  speedMultiplier: 1
   turnsActive: 0
   specAttRate: 0
-  maxHP: 30
-  currentHP: 30
+  counterRate: 0
+  counterState: 0
   poisonNum: 0
-  TurnImage: {fileID: 6625094748001493794}
   animator: {fileID: 8391947440105178824}
   effects: {fileID: 0}
 --- !u!95 &8391947440105178824
